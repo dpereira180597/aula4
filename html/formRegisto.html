@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Formulario</title>
+
+</head>
+<body>
+    <header>
+        <h1>Registo Utilizador</h1>
+    </header>
+
+    <main style="width: 60%; margin-left: 20%;">
+
+        <form>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <label for="nome">Nome:</label>
+                  <input type="text" class="form-control" placeholder="Insira o seu Nome" aria-label="Primeiro Nome" id="nome">
+                </div>
+                <div class="col col-lg-6 col-md-6 col-sm-12">
+                    <label for="apelido">Apelido</label>
+                  <input type="text" class="form-control" placeholder="Insira o seu apelido" aria-label="Ultimo Nome" id="apelido">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <label for="email">Email:</label>
+                  <input type="email" class="form-control" placeholder="Insira o seu Email" aria-label="Email" id="email">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <label for="password">Password:</label>
+                  <input type="password" class="form-control" placeholder="Insira o seu Password" aria-label="Password" id="password">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <label for="morada">Morada:</label>
+                  <input type="morada" class="form-control" placeholder="Insira a sua Morada" aria-label="Morada" id="morada">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <label for="morada2">Morada2:</label>
+                  <input type="morada2" class="form-control" placeholder="Insira a sua Morada2" aria-label="Morada2" id="morada2">
+                </div>
+
+            </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-4 col-sm-2">
+                        <label for="cidade">Cidade</label>
+                      <input type="cidade" class="form-control" placeholder="Insira a sua Cidade" aria-label="Cidade" id="cidade">
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <label for="distritos">Distritos:</label>
+                      <select name="" id="distritos">
+                        <option value="Escolher"></option>
+                        <option valeu='Aveiro'>Aveiro</option>
+<option valeu='Beja'>Beja</option>
+<option valeu='Braga'>Braga</option>
+<option valeu='Bragança'>Bragança</option>
+<option valeu='CasteloBranco'>CasteloBranco</option>
+<option valeu='Coimbra'>Coimbra</option>
+<option valeu='Évora'>Évora</option>
+<option valeu='Faro'>Faro</option>
+<option valeu='Guarda'>Guarda</option>
+<option valeu='Leiria'>Leiria</option>
+<option valeu='Lisboa'>Lisboa</option>
+<option valeu='Portalegre'>Portalegre</option>
+<option valeu='Porto'>Porto</option>
+<option valeu='Santarém'>Santarém</option>
+<option valeu='Setúbal'>Setúbal</option>
+<option valeu='VianadoCastelo'>VianadoCastelo</option>
+<option valeu='VilaReal'>VilaReal</option>
+<option valeu='Viseu'>Viseu</option>
+
+                      </select>
+                    
+
+                    </div>
+                      <div class="col-lg-2 col-md-2 col-sm-2">
+                        <label for="codPostal">CodigoPostal:</label>
+                      <input type="codPostal" class="form-control" placeholder="XXX-yyy" aria-label="codPostal" id="codPostal">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <label for="data">Data Inicio:</label>
+              <input type="Data" class="form-control" placeholder="dd/mm/aaaa" aria-label="Data" id="data">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <label for="dataf">Data Final:</label>
+              <input type="DataF" class="form-control" placeholder="dd/mm/aaaa" aria-label="DataF" id="dataf">
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+            <input type="checkbox" value="ok" > Clique em Mim  
+              </div>
+            </div><br>
+
+            <input type="button" class="btn btn-primary" value="Registar" onclick="registar();">
+            
+        </form>
+
+        
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
